@@ -1,0 +1,49 @@
+table {
+	border: 1px solid;
+	background: #ffffff;
+	width: 100%;
+	border-collapse: collapse;
+	border-color: black;
+}
+
+
+table thead{
+	background-color: black;	
+}
+
+.tabela1 {
+	background-color: rgb(1, 1, 2);
+}
+
+table thead tr {
+	color:#ffffff;
+	border: 1px solid;
+	border-color: black;
+}
+
+table th, table td {
+	padding: 1rem;
+	font-size: 1.6rem;
+	text-align: center;
+}
+
+table tr td:first-child {
+	text-align: center;
+	font-weight: bold;	
+}
+
+.table-container {
+	padding: 2rem 1rem;
+	
+}
+
+.table-container tfoot {
+	background: #402a69;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+	color: #ffffff;
+	border: 1px solid;
+	border-color: black;
+}

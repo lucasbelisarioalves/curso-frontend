@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "MuseoModerno", cursive;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 21, 21, 0.548);
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    background-color: aqua;
+}
+
+/*LAYOUT GRID*/
+
+.section1{
+    align-items: center;
+    margin: 0;
+    border:0px spçod #fff;
+    display: grid;
+    grid-template-areas: 
+    "imagem imagem"
+    "imagem imagem";
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}

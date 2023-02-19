@@ -1,0 +1,27 @@
+/*DEFININDO AS PROPRIEDADES DO FORMULÁRIO*/
+form div {
+  margin: 10px 10px 20px 10px;
+  padding:  10px 20px 10px 20px;
+  background: #fff;
+  border: 0;
+  border-left: 1px solid #33f;
+  border-right: 1px solid #33f;
+  border-top: 1px solid #33f;
+  border-bottom: 1px solid #33f;
+}
+
+form div label {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color:#66f;
+}
+
+#botaoenviar {
+  padding: 10px 50px;
+}
+
+[type="text"], [type="email"], textarea, label{
+  width: 100%;
+}

@@ -1,0 +1,86 @@
+/*ARQUIVO CSS P/ O SITE */
+
+  /*alinhando a página ao ponto "0" do navegador*/
+ *{
+  margin: 0;
+  padding: 0;
+ }
+ 
+ /*Definindo proproedades do corpo da página*/
+ body {
+  font-family: sans-serif;
+  font-size: large;
+  }
+
+  body article div h2 {
+    font-size: 35px;
+    color:blueviolet;
+    text-align:middle;
+  }
+
+  /*ESTILO DO CABEÇALHO*/
+ header {
+    background-color: rgb(0, 0, 0);
+    padding: 100px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-block-end: 25px;
+  }
+
+  /*MENU DE NAVEGAÇÃO*/
+  nav {
+    float:left;
+    background: rgb(59, 103, 223);
+    margin: 10px 10px 10px 10px;
+    height: auto;
+    width:200px;
+    font-size: 22px;
+    font-display: auto;
+    margin-right: 25px; /*separando com o uso de margem o "nav" do "article"*/
+    border: black;
+  }
+
+  /*Aqui estou definindo o stilo do menu navegação dentro de sua lsita não ordenada*/
+  nav u1 {
+    list-style-type: none;
+    padding: 0px;
+  }
+
+  nav u1 li{
+    margin:0;
+    border: 1px solid white;
+  }
+  
+  nav u1 li :hover{
+    background-color: rgb(70, 101, 129);
+    color: black;
+  }
+  
+  /*Aqui estamos entrendo dentro da classe "a" dentro da lista não ordenada e mudando os estilos*/
+  nav u1 li a {
+    color: #fff;
+    padding: 10px;
+    display: block;
+    transition: background .3s;
+  }
+  /*Neste campo estamos mudando os estilos da parte principal do site, onde vão os textos e imagens*/
+  article{
+    height: auto;
+    width: 500px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    margin-block-end: 25px;
+  }
+
+  /*ESTILO DO RODAPÉ*/
+  footer {
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    clear: both;
+  }
+
+  
